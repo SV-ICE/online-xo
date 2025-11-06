@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/online-xo/static/css/main.1f0fa6ce.css",
+    "main.js": "/online-xo/static/js/main.c7b3a623.js",
+    "index.html": "/online-xo/index.html",
+    "main.1f0fa6ce.css.map": "/online-xo/static/css/main.1f0fa6ce.css.map",
+    "main.c7b3a623.js.map": "/online-xo/static/js/main.c7b3a623.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1f0fa6ce.css",
+    "static/js/main.c7b3a623.js"
+  ]
+}
