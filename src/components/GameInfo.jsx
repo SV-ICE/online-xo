@@ -1,4 +1,5 @@
 import GameSymbol from "./GameSymbol";
+import { symbolVariants } from "./../constants";
 
 const GameInfo = ({ isDraw, winnerSymbol, currentStep }) => {
     if (isDraw) {

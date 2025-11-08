@@ -1,0 +1,13 @@
+<svg width="200" height="200" viewBox="0 0 200 200">
+  <defs>
+    <linearGradient id="xGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f3482aff" />
+      <stop offset="50%" stop-color="#f4684cff" />
+      <stop offset="100%" stop-color="#e12d2dff" />
+    </linearGradient>
+  </defs>
+  <line x1="40" y1="40" x2="160" y2="160" 
+        stroke="url(#xGradient)" stroke-width="20" stroke-linecap="round"/>
+  <line x1="160" y1="40" x2="40" y2="160" 
+        stroke="url(#xGradient)" stroke-width="20" stroke-linecap="round"/>
+</svg>
