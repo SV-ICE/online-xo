@@ -1,6 +1,8 @@
 * {
     box-sizing: border-box;
     font-family:'Lucida Sans Unicode';
+    margin: 0;
+    padding: 0;
 }
 
 .App {
@@ -31,6 +33,7 @@
 
 .game-info {
     width: 100%;
+    height: 50px;
     margin-bottom: 15px;
     font-size: 24px;
     .symbol {
@@ -44,12 +47,26 @@
 .game-status {
     background: rgba(231, 245, 167, 0.258);
     width: 100%;
+    height: 50px;
     text-align: center;
     border-radius: 15px;
     display: flex;
     gap: 10px;
     justify-content: center;
     align-items: center;
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 50px;
+    p {
+        justify-self: end;
+        align-self: center;
+        margin: 0;
+    }
+
+    &.status-result {
+        display: flex;
+    }
 }
 
 .game-field {
