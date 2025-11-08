@@ -1,0 +1,11 @@
+<svg width="200" height="200" viewBox="0 0 200 200">
+  <defs>
+    <linearGradient id="oGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#70e154ff" />
+      <stop offset="50%" stop-color="#22a729ff" />
+      <stop offset="100%" stop-color="#43e97b" />
+    </linearGradient>
+  </defs>
+  <circle cx="100" cy="100" r="60" fill="none"
+          stroke="url(#oGradient)" stroke-width="20" stroke-linecap="round"/>
+</svg>
